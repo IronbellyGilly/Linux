@@ -80,7 +80,7 @@ DHCP служит для назначения IP-адреса клиенту. Э
     
 Выдача пользователю права sudo:
 
-![linux](screenshots/Part 5.png)
+![linux](screenshots/Part5.png)
 
 Изменяем hostname OC
 
@@ -90,11 +90,11 @@ sudo позволяет клиенту задать практически лю�
 
 Вывод текущего времени:
 
-![linux](screenshots/Part 6.png)
+![linux](screenshots/Part6.png)
 
 Вывод команды синхронизации:
 
-![linux](screenshots/Part 6.1.png)
+![linux](screenshots/Part6.1.png)
 
 ## Part 7. Установка и использование текстовых редакторов
 
@@ -102,19 +102,19 @@ sudo позволяет клиенту задать практически лю�
 
 Создание файла с помощью VIM:
 
-![linux](screenshots/Part 7.1.png)
+![linux](screenshots/Part7.1.png)
 
 Для выхода и сохранения используем wq
 
 Создание файла с помощью NANO:
 
-![linux](screenshots/Part 7.2.png)
+![linux](screenshots/Part7.2.png)
 
 Для выхода и сохранения используем control + x, y, enter
 
 Создание файла с помощью JOE:
 
-![linux](screenshots/Part 7.3.png)
+![linux](screenshots/Part7.3.png)
 
 Для выхода и сохранения используем Ctrl + K, X
 
@@ -122,15 +122,15 @@ sudo позволяет клиенту задать практически лю�
 
 Для выхода без сохранения в VIM используем команду q!:
 
-![linux](screenshots/Part 7.4.png)
+![linux](screenshots/Part7.4.png)
 
 Для выхода без сохранения в VIM используем команды control + x, n, enter:
 
-![linux](screenshots/Part 7.5.png)
+![linux](screenshots/Part7.5.png)
 
 Для выхода без сохранения в JOE используем команду Control+C
 
-![linux](screenshots/Part 7.7.png)
+![linux](screenshots/Part7.7.png)
 
 3) Поиск и замена слова в текстовых редакторах:
 
@@ -138,31 +138,31 @@ VIM:
 
 Поиск шаблона с помощью команды /{patter}
 
-![linux](screenshots/Part 7.8.1.png)
+![linux](screenshots/Part7.8.1.png)
 
 Поиск и замена шаблона во всем файле /%s/{patter}/{string}/g
 
-![linux](screenshots/Part 7.8.2.png)
+![linux](screenshots/Part7.8.2.png)
 
 NANO: 
 
 Поиск шаблона с помощью команды OPTION+R
 
-![linux](screenshots/Part 7.9.1.png)
+![linux](screenshots/Part7.9.1.png)
 
 Вводим, что ищем, затем на что меняем. Клавишей Y мы подтверждаем одну замену, а клавишей A — заменить все.
 
-![linux](screenshots/Part 7.9.2.png)
+![linux](screenshots/Part7.9.2.png)
 
 JOE:
 
 Поиск шаблона с помощью команды CTRL + K +F
 
-![linux](screenshots/Part 7.10.1.png)
+![linux](screenshots/Part7.10.1.png)
 
 Нажимаем  R для замены и  Y для подтверждения
 
-![linux](screenshots/Part 7.10.2.png)
+![linux](screenshots/Part7.10.2.png)
 
 
 ## Part 8. Установка и базовая настройка сервиса SSHD
@@ -173,11 +173,11 @@ JOE:
 
 3) Перенастроил службу SSHd на порт 2022 через NANO с изменением файла
 
-![linux](screenshots/Part 8.2.png)
+![linux](screenshots/Part8.2.png)
 
 4) Используя команду ps, показал наличие процесса sshd.
 
-![linux](screenshots/Part 8.1.png)
+![linux](screenshots/Part8.1.png)
 
 флаг -F выводит максимально доступные данные процессов
 
@@ -208,9 +208,9 @@ CMD - команда запуска процесса
 
 5) Перезагрузил систему: 
 
-![linux](screenshots/Part 8.3.png)
+![linux](screenshots/Part8.3.png)
 
-![linux](screenshots/Part 8.4.png)
+![linux](screenshots/Part8.4.png)
 
 Вывод команды netstat -tan по флагам:
 
@@ -240,7 +240,7 @@ State - состояние сокета
 
 Установить и запустить утилиты top и htop:
 
-![linux](screenshots/Part 9.1.png)
+![linux](screenshots/Part9.1.png)
 
 Первая линия:
 
@@ -264,39 +264,39 @@ uptime - локальное время и время прошедшее с по�
 
 pid процесса, занимающего больше всего процессорного времени:
 
-![linux](screenshots/Part 9.2.png)
+![linux](screenshots/Part9.2.png)
 
 pid процесса занимающего больше всего памяти:
 
-![linux](screenshots/Part 9.2.1.png)
+![linux](screenshots/Part9.2.1.png)
 
 Сортировка по PID, PERCENT_CPU, PERCENT_MEM, TIME:
 
-![linux](screenshots/Part 9.3.png)
+![linux](screenshots/Part9.3.png)
 
-![linux](screenshots/Part 9.4.png)
+![linux](screenshots/Part9.4.png)
 
-![linux](screenshots/Part 9.5.png)
+![linux](screenshots/Part9.5.png)
 
-![linux](screenshots/Part 9.6.png)
+![linux](screenshots/Part9.6.png)
 
 Для процесса sshd:
 
-![linux](screenshots/Part 9.7.png)
+![linux](screenshots/Part9.7.png)
 
 Для syslog:
 
-![linux](screenshots/Part 9.8.png)
+![linux](screenshots/Part9.8.png)
 
 с добавленным выводом hostname, clock и uptime:
 
-![linux](screenshots/Part 9.9.png)
+![linux](screenshots/Part9.9.png)
 
 ## Part 10. Использование утилиты fdisk
 
 Запустить команду fdisk -l:
 
-![linux](screenshots/Part 10.png)
+![linux](screenshots/Part10.png)
 
 Название: /dev/sda
 
@@ -308,7 +308,7 @@ pid процесса занимающего больше всего памяти
 
 ## Part 11. Использование утилиты df
 
-![linux](screenshots/Part 11.1.png)
+![linux](screenshots/Part11.1.png)
 
 Размер раздела:
 
@@ -325,7 +325,7 @@ pid процесса занимающего больше всего памяти
 
 54%
 
-![linux](screenshots/Part 11.2.png)
+![linux](screenshots/Part11.2.png)
 
 Тип файловой системы: ext4
 
@@ -349,11 +349,11 @@ pid процесса занимающего больше всего памяти
 
 Запустить команду du:
 
-![linux](screenshots/Part 12.1.png)
+![linux](screenshots/Part12.1.png)
 
 Вывод размера папок:
 
-![linux](screenshots/Part 12.2.png)
+![linux](screenshots/Part12.2.png)
 
 -s флаг выводит общий размер
 
@@ -361,30 +361,30 @@ pid процесса занимающего больше всего памяти
 
 ## Part 13. Установка и использование утилиты ncdu
 
-![linux](screenshots/Part 13.1.png)
+![linux](screenshots/Part13.1.png)
 
-![linux](screenshots/Part 13.2.png)
+![linux](screenshots/Part13.2.png)
 
 ## Part 14. Работа с системными журналами
 
 Время последней авторизации:
 
-![linux](screenshots/Part 14.1.png)
+![linux](screenshots/Part14.1.png)
 
 Рестарт службы в логах:
 
-![linux](screenshots/Part 14.2.png)
+![linux](screenshots/Part14.2.png)
 
 ## Part 15. Использование планировщика заданий CRON
 
 Запуск команды UPTIME каждые 2 минуты: 
 
-![linux](screenshots/Part 15.2.png)
+![linux](screenshots/Part15.2.png)
 
 Вывод текущих задач для CRON:
 
-![linux](screenshots/Part 15.3.png)
+![linux](screenshots/Part15.3.png)
 
 Удаление всех задач:
 
-![linux](screenshots/Part 15.4.png)
+![linux](screenshots/Part15.4.png)
