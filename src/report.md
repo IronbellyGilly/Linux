@@ -12,7 +12,7 @@
 
 Новый пользователь из вывода команды:
 
-![linux](screenshots/Part 2.2.png)
+![linux](screenshots/Part2.2.png)
 
 ## Part 3. Настройка сети ОС
 
