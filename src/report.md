@@ -2,7 +2,7 @@
 Установка Ubuntu 20.04 Server LTS без графического интерфейса.
 
 ![linux](screenshots/Part 1.png)
-![Alt text](/screenshots/Part 1.jpg)
+![Alt text](/screenshots/Part1.jpg)
 
 ## Part 2. Создание пользователя
 
